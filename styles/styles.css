@@ -152,3 +152,63 @@ ul {
     background: white;
     color: #302253;
 }
+
+.hero-right {
+    width: 50%;
+    height: 420px;
+    position: relative;
+    background: linear-gradient( rgba(32, 22, 51, .40),rgba(32, 22, 51, .40)
+        ),
+        url("../assets/images/hojasFondo.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+.phone {
+    position: absolute;
+    width: 150px;
+    height: 295px;
+    background: #f4f4f4;
+    border-radius: 22px;
+    left: 20%;
+    top: 92px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .35), inset 0 0 0 2px #dddddd;
+}
+
+.phone::before {
+    content: "";
+    position: absolute;
+    width: 42px;
+    height: 5px;
+    background: #aaaaaa;
+    border-radius: 10px;
+    top: 8px;
+    left: 54px;
+}
+
+.phone-screen {
+    position: absolute;
+    top: 17px;
+    left: 10px;
+    width: 130px;
+    height: 260px;
+    background: white;
+    border-radius: 13px;
+    padding-top: 85px;
+}
+
+.screen-title {
+    width: 70px;
+    height: 16px;
+    background: #bcbcbc;
+    margin: 0 auto 12px;
+}
+
+.screen-line {
+    width: 92px;
+    height: 6px;
+    background: #bcbcbc;
+    margin: 0 auto 7px;
+}
