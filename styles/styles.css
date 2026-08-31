@@ -21,3 +21,50 @@ a {
 ul {
     list-style: none;
 }
+
+ .navbar {
+    width: 100%;
+    height: 64px;
+    background: #211735;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14%;
+    color: white;
+}
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: white;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand strong {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.brand span {
+    font-size: 8px;
+    color: #b8b1c4;
+}
