@@ -212,3 +212,52 @@ ul {
     background: #bcbcbc;
     margin: 0 auto 7px;
 }
+
+.screen-line.small {
+    width: 90px;
+}
+
+.screen-button {
+    width: 75px;
+    height: 21px;
+    background: #d52d64;
+    margin: 18px auto;
+}
+
+
+.features {
+    width: 100%;
+    background: #f1f2f7;
+    padding: 28px 14% 42px;
+}
+
+.features h2 {
+    text-align: center;
+    color: #df2783;
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 42px;
+}
+
+.feature-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.tablet-container {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.tablet {
+    width: 260px;
+    height: 195px;
+    background: #e8e8e8;
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .08);
+    position: relative;
+}
