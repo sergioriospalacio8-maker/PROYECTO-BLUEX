@@ -343,3 +343,69 @@ ul {
     font-weight: 700;
     margin-bottom: 24px;
 }
+
+.pricing-description {
+    width: 570px;
+    margin: 0 auto 38px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 1.55;
+    color: #dddddd;
+}
+
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan {
+    width: 205px;
+    height: 395px;
+    background: white;
+    color: #333333;
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-header {
+    text-align: center;
+    padding: 17px 10px 10px;
+}
+
+.plan-header i {
+    font-size: 26px;
+    color: #26344b;
+    margin-bottom: 8px;
+}
+
+.plan:first-child .plan-header i {
+    color: #df3c91;
+}
+
+.plan-header h3 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.price {
+    height: 48px;
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.price strong {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.price span {
+    font-size: 10px;
+    color: #555555;
+}
