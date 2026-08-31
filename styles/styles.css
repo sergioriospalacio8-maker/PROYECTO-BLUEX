@@ -68,3 +68,25 @@ ul {
     font-size: 8px;
     color: #b8b1c4;
 }
+
+ .navbar nav {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.navbar nav a {
+    color: #aaa4b5;
+    font-size: 12px;
+}
+
+.navbar nav a:hover {
+    color: white;
+}
+
+.navbar .download-top {
+    background: linear-gradient(90deg, #9333ea, #2563be);
+    color: white;
+    padding: 10px 19px;
+    border-radius: 2px;
+}
