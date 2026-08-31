@@ -463,3 +463,34 @@ ul {
 .subscribe:hover {
     opacity: .85;
 }
+
+footer {
+    width: 100%;
+    height: 58px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14%;
+    color: #333333;
+    font-size: 15px;
+}
+
+.copyright span {
+    color: #df2783;
+    font-weight: 600;
+}
+
+.social {
+    display: flex;
+    gap: 16px;
+}
+
+.social a {
+    color: #222222;
+    font-size: 14px;
+}
+
+.social a:hover {
+    color: #df2783;
+}
