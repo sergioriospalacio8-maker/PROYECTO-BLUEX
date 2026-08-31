@@ -409,3 +409,57 @@ ul {
     font-size: 10px;
     color: #555555;
 }
+
+.plan-list {
+    padding: 20px 20px 8px;
+}
+
+.plan-list li {
+    font-size: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.plan-list i {
+    width: 12px;
+    font-size: 9px;
+}
+
+.plan-list li:first-child i {
+    color: #26344b;
+}
+
+.plan:first-child .plan-list li:first-child i {
+    color: #df3c91;
+}
+
+.plan-description {
+    font-size: 10px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 8px 22px 15px;
+    margin-top: auto;
+}
+
+.subscribe {
+    display: block;
+    width: 110px;
+    margin: 0 auto 10px;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    background: #251b48;
+    border-radius: 2px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, .2);
+}
+
+.subscribe.pink {
+    background: #df2783;
+}
+
+.subscribe:hover {
+    opacity: .85;
+}
