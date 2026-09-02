@@ -12,6 +12,7 @@ body {
     font-family: "Montserrat", sans-serif;
     color: #303030;
     overflow-x: hidden;
+    zoom: 1.2;
 }
 
 a {
