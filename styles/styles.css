@@ -496,3 +496,38 @@ footer {
     color: #df2783;
 }
 
+@media (max-width: 1279px) {
+
+    body {
+        zoom: 1;
+
+    }
+
+    .navbar {
+        padding: 0 7%;
+
+    }
+
+    .hero-left {
+        padding-left: 7%;
+
+    }
+
+    .features {
+        padding-left: 7%;
+        padding-right: 7%;
+
+    }
+
+    .pricing {
+        padding-left: 6%;
+        padding-right: 6%;
+
+    }
+
+    footer {
+        padding-left: 7%;
+        padding-right: 7%;
+
+    }
+}
