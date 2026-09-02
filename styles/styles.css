@@ -158,7 +158,7 @@ ul {
     width: 50%;
     height: 420px;
     position: relative;
-    background: linear-gradient( rgba(32, 22, 51, .40),rgba(32, 22, 51, .40)
+    background: linear-gradient( rgba(32, 22, 51, .40),
         ),
         url("../assets/images/hojasFondo.jpg");
 
