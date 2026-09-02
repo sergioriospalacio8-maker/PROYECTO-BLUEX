@@ -496,38 +496,80 @@ footer {
     color: #df2783;
 }
 
-@media (max-width: 1279px) {
-
-    body {
-        zoom: 1;
-
-    }
+@media (max-width: 920px){
 
     .navbar {
-        padding: 0 7%;
+        padding: 0 5%;
+    }
 
+    .navbar nav {
+        gap: 15px;
+    }
+
+    .navbar nav a {
+        font-size: 11px;
+    }
+
+    .navbar .download-top {
+        padding: 9px 13px;
     }
 
     .hero-left {
-        padding-left: 7%;
+        padding-left: 5%;
+        padding-top: 85px;
+    }
 
+    .hero-left h1 {
+        font-size: 40px;
+    }
+
+    .hero-left p {
+        width: 90%;
+        max-width: 390px;
+    }
+
+    .hero-right {
+        width: 50%;
+    }
+
+    .phone {
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .features {
-        padding-left: 7%;
-        padding-right: 7%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 
+    .feature-content {
+        gap: 35px;
+    }
+
+    .tablet-container, .feature-text {
+        width: 50%;
+    }
+
+    .feature-text p {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .plans {
+        gap: 12px;
+    }
+
+    .plan {
+        width: 190px;
     }
 
     .pricing {
-        padding-left: 6%;
-        padding-right: 6%;
-
+        padding-left: 5%;
+        padding-right: 3%;
     }
 
     footer {
-        padding-left: 7%;
-        padding-right: 7%;
-
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
